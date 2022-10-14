@@ -1,4 +1,4 @@
-package com.sarvarmasharipov72.cafe.db
+package com.sarvarmasharipov72.cafe.data.db
 
 import androidx.paging.PagingSource
 import androidx.room.Dao
