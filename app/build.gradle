@@ -50,8 +50,10 @@ dependencies {
     implementation 'com.squareup.retrofit2:retrofit:2.9.0'
 //    OkHttps
     implementation 'com.squareup.okhttp3:okhttp:5.0.0-alpha.10'
+    implementation 'com.squareup.okhttp3:logging-interceptor:5.0.0-alpha.10'
 //  Dagger - Hilt
     implementation("com.google.dagger:hilt-android:2.44")
+    implementation 'androidx.lifecycle:lifecycle-viewmodel-ktx:2.5.1'
     kapt("com.google.dagger:hilt-android-compiler:2.44")
     kapt 'androidx.hilt:hilt-compiler:1.0.0'
 
@@ -61,8 +63,10 @@ dependencies {
     implementation 'androidx.paging:paging-runtime-ktx:3.1.1'
 
 //    Room
-    implementation 'androidx.room:room-runtime:2.4.3'
-    kapt("androidx.room:room-compiler:2.4.3")
+    implementation "androidx.room:room-runtime:2.4.3"
+    kapt "androidx.room:room-compiler:2.4.3"
+    implementation "androidx.room:room-ktx:2.4.3"
+    implementation "androidx.room:room-paging:2.4.3"
 
     testImplementation 'junit:junit:4.13.2'
     androidTestImplementation 'androidx.test.ext:junit:1.1.3'
